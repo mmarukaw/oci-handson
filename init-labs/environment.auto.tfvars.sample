@@ -1,0 +1,11 @@
+// Modify these variables along with your tenancy information
+// Tenancy : XXXXX (test environment)
+
+// Common variables
+tenancy_ocid     = "<your_tenancy_ocid>"
+region           = "<your_home_region>"
+
+// Variables with API key authentication.  Remove these entries when using instance principals
+user_ocid        = "<your_user_ocid>"
+fingerprint      = "<your_api_key_fingerprint>"
+private_key_path = "<path_to_your_api_private_key>"
